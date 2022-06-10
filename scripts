@@ -1,0 +1,17 @@
+
+Let’s examine the syntax in greater detail.
+
+First, you specify the name of the table that you want to create after the CREATE TABLE  keywords. The table name must be unique within a database. 
+The IF NOT EXISTS is optional. It allows you to check if the table that you create already exists in the database. If this is the case,
+MySQL will ignore the whole statement and will not create any new table.
+
+
+Second, you specify a list of columns of the table in the column_list section, columns are separated by commas.
+
+
+Third, you can optionally specify the storage engine for the table in the ENGINE clause. You can use any storage engine such as InnoDB and MyISAM. 
+If you don’t explicitly declare a storage engine, MySQL will use InnoDB by default.
+
+
+InnoDB became the default storage engine since MySQL version 5.5. The InnoDB storage engine brings many benefits of a relational database management system such as ACID transaction, 
+referential integrity, and crash recovery. In the previous versions, MySQL used MyISAM as the default storage engine.
