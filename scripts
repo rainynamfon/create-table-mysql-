@@ -14,4 +14,4 @@ If you don’t explicitly declare a storage engine, MySQL will use InnoDB by def
 
 
 InnoDB became the default storage engine since MySQL version 5.5. The InnoDB storage engine brings many benefits of a relational database management system such as ACID transaction, 
-referential integrity, and crash recovery. In the previous versions, MySQL used MyISAM as the default storage engine.
+referential integrity, and crash recovery. In the previous versions, MySQL used MyISAM as the default storage engine...
