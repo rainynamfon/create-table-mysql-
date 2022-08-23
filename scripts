@@ -3,7 +3,7 @@ Let’s examine the syntax in greater detail.
 
 First, you specify the name of the table that you want to create after the CREATE TABLE  keywords. The table name must be unique within a database. 
 The IF NOT EXISTS is optional. It allows you to check if the table that you create already exists in the database. If this is the case,
-MySQL will ignore the whole statement and will not create any new table.
+MySQL will ignore the whole statement and will not create any new table...
 
 
 Second, you specify a list of columns of the table in the column_list section, columns are separated by commas.
