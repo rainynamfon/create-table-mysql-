@@ -6,7 +6,7 @@ The IF NOT EXISTS is optional. It allows you to check if the table that you crea
 MySQL will ignore the whole statement and will not create any new table...
 
 
-Second, you specify a list of columns of the table in the column_list section, columns are separated by commas.
+Second, you specify a list of columns of the table in the column_list section, columns are separated by commas...
 
 
 Third, you can optionally specify the storage engine for the table in the ENGINE clause. You can use any storage engine such as InnoDB and MyISAM. 
